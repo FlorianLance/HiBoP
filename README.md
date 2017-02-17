@@ -1,6 +1,6 @@
 # HiBoP
 
-Ce wiki est destiné à la configuration du module 3D d'HiBoP.
+Ce wiki est destiné à la configuration du module 3D d'HiBoP et des autres logiciels que j'ai développé.
 
 ## Depuis Unity3D
 
