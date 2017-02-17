@@ -65,26 +65,7 @@ Data
      * MNI_single_hight_Rwhite_inflated.obj (le maillage MNI contenant l'hemisphère droit avec la matière blanche en version gonflée)
 
 
-
-
-Rendu à la fin de mon contrat:
-------------------------------
-
-Hierachie du dossier
-* HiBoP_dd_mm_yyyy
-  * HiBoP
-    * build_linux
-    * build_windows
-    * editor
-    * export
-      * hbp_export
-
-          
-      
-  * HiBoP_DB_manager
-    * build_linux
-    * build_windows
-
+// TODO
 
 
 
