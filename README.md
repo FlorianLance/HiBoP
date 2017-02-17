@@ -8,9 +8,18 @@ Ce wiki est destiné à la configuration du module 3D d'HiBoP.
 
 La scène **LastMain** contient le GameObject **HiBoP 3DModule API**, il définit tout ce qui est nécessaire pour utiliser le module 3D:
  * évènements (acessibles depuis l'inspector ou directement dans le code)
- * camera principale du module
+   * **UpdateColumnMinimizedState** quand on minimize ou agrandit une colonne
+   * **SiteInfoRequest** quand on clique sur un plot et que la checkbox "update info" est cochée
+   * **LoadSPSceneFromMP** quand on charge un patient individuel depuis la scène MNI
+   * **ROISavedEvent** quand une ROI est sauvegardée depuis la scène MNI
+ * camera principale du module  
  * fonctions de commande
-
+   * **set_module_focus** permet de définir si le focus du module 3D est actif
+   * **background_camera** retrouve la camera "Screen space" principale du module 3D
+   * **set_scenes_visibility** permet de choisir quelle scène doit être visible
+   * **set_scene_data(Data.Visualisation.SinglePatientVisualisationData)** charge une scène avec un patient
+   * **set_scene_data(Data.Visualisation.MultiPatientsVisualisationData)** charge la scène MNI
+ 
 Il est inutile d'essayer d'utiliser d'autres GameObjects que celui-ci, la structure du programme s'en trouverait endommagée.
 
 L'utilisation de la GUI Qt a été modifiée et les fonctions sont désormais statiques:
