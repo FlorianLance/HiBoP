@@ -1,0 +1,27 @@
+/*****===================================================================*****/
+/*****         File nifti1_io.h == Declarations for nifti1_io.c          *****/
+/*****...................................................................*****/
+/*****            This code is released to the public domain.            *****/
+/*****...................................................................*****/
+/*****  Author: Robert W Cox, SSCC/DIRP/NIMH/NIH/DHHS/USA/EARTH          *****/
+/*****  Date:   August 2003                                              *****/
+/*****...................................................................*****/
+/*****  Neither the National Institutes of Health (NIH), nor any of its  *****/
+/*****  employees imply any warranty of usefulness of this software for  *****/
+/*****  any purpose, and do not assume any liability for damages,        *****/
+/*****  incidental or otherwise, caused by any use of this document.     *****/
+/*****===================================================================*****/
+
+/* 
+   Modified by: Mark Jenkinson (FMRIB Centre, University of Oxford, UK)
+   Date: July/August 2004 
+
+      Mainly adding low-level IO and changing things to allow gzipped files
+      to be read and written
+      Full backwards compatability should have been maintained
+
+   Modified by: Rick Reynolds (SSCC/DIRP/NIMH, National Institutes of Health)
+   Date: December 2004
+
+      Modified and added many routines for I/O.
+*/
