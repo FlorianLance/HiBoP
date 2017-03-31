@@ -22,17 +22,15 @@ La scène **LastMain** contient le GameObject **HiBoP 3DModule API**, il défini
  
 Il est inutile d'essayer d'utiliser d'autres GameObjects que celui-ci, la structure du programme s'en trouverait endommagée.
 
-L'utilisation de la GUI Qt a été modifiée et les fonctions sont désormais statiques:
-**HBP.VISU3D.DLL.QtGUI.get_existing_directory_name(string message = "Select a directory", string defaultDir = "")**
-
 ### Accéder aux fonctionnalités debug du module 3D:
 
 Deux programmes de debug sont disponible depuis le dossier où se trouve l'éxécutable d'HiBoP:
 
-  * **HiBoP_debug_launcher** permet de parser la BDD Epilepsy et d'afficher rapidement une scène SP ou MP dans HiBoP avec des données géométriques réelles et des données iEEG simulées. Ce programme va se charger lui-même de lancer HiBoP et de le quitter, il en sera ainsi à chaque chargement d'une nouvelle scène.
-  Très utile pour tester rapidement une scène avec un nouveau build.
-  * **HiBoP_debug_launcher_editor** fonctionne de la même façon sauf qu'il ne lancera pas HiBoP de lui même, il se contente d'écrire un fichier de configuration contenant les chemiens vers Epilepsy. Pour charger la scène définie dans ce fichier il faudra utilier le menu personnalisé "Debug test" dans l'éditeur et choisir "Load patient from debug launcher".
-
+  * **HiBoP_Tools** permet 3 choses selon les paramètres:
+  * 1. ...
+  * 2. ...
+  * 3. ...
+  
 ### Dossier Data
 
 Pour que le module marche, ce dossier doit-être présent dans le dossier **Assets** pour l'éditeur et à la racine de l'éxécutable pour une version build.
@@ -72,25 +70,23 @@ Data
      * MNI_single_hight_Bwhite_inflated.obj (le maillage MNI contenant les 2 hemisphères avec la matière blanche) en version gonflée
      * MNI_single_hight_Lwhite_inflated.obj le maillage MNI contenant l'hemisphère gauche avec la matière blanche en version gonflée)
      * MNI_single_hight_Rwhite_inflated.obj (le maillage MNI contenant l'hemisphère droit avec la matière blanche en version gonflée)
+     * Tous les maillages sont égalements présents en format *.gii (non transformés et non inversés), pour la version mac
 
 
-// TODO
+### Licences des dépendances
 
-
-*** Licences des dépendances
-
-**qcustomplot : GNU General Public License 3 (Emanuel Eichhammer http://www.qcustomplot.com/)
+# qcustomplot : GNU General Public License 3 (Emanuel Eichhammer http://www.qcustomplot.com/)
 (not used anymore)
 
-**opencv : http://opencv.org/license.html
+# opencv : http://opencv.org/license.html
 
-** plot.hpp (opencv contrib) see file
+# plot.hpp (opencv contrib) see file
 
-** GPC see file
+# GPC see file
 
-** boost : http://www.boost.org/users/license.html
+# boost : http://www.boost.org/users/license.html
 
-** nifti : see file
+# nifti : see file
 
-** Qt : http://doc.qt.io/qt-5/licensing.html
+# Qt : http://doc.qt.io/qt-5/licensing.html
 
