@@ -73,7 +73,7 @@ Data
      * Tous les maillages sont égalements présents en format *.gii (non transformés et non inversés), pour la version mac
 
 
-*** Licences des dépendances
+### Licences des dépendances
 
 * qcustomplot : GNU General Public License 3 (Emanuel Eichhammer http://www.qcustomplot.com/)
 (not used anymore)
