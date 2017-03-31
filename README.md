@@ -77,8 +77,12 @@ Data
 // TODO
 
 
+*** Licences des dépendances
 
+**qcustomplot : GNU General Public License 3 (Emanuel Eichhammer http://www.qcustomplot.com/)
+(not used anymore)
 
+**opencv : http://opencv.org/license.html
 
-
+** plot.hpp (opencv contrib) see file
 
