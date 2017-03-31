@@ -73,20 +73,20 @@ Data
      * Tous les maillages sont égalements présents en format *.gii (non transformés et non inversés), pour la version mac
 
 
-### Licences des dépendances
+*** Licences des dépendances
 
-# qcustomplot : GNU General Public License 3 (Emanuel Eichhammer http://www.qcustomplot.com/)
+* qcustomplot : GNU General Public License 3 (Emanuel Eichhammer http://www.qcustomplot.com/)
 (not used anymore)
 
-# opencv : http://opencv.org/license.html
+* opencv : http://opencv.org/license.html
 
-# plot.hpp (opencv contrib) see file
+* plot.hpp (opencv contrib) see file
 
-# GPC see file
+* GPC see file
 
-# boost : http://www.boost.org/users/license.html
+* boost : http://www.boost.org/users/license.html
 
-# nifti : see file
+* nifti : see file
 
-# Qt : http://doc.qt.io/qt-5/licensing.html
+* Qt : http://doc.qt.io/qt-5/licensing.html
 
