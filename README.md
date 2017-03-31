@@ -90,3 +90,7 @@ Data
 
 ** boost : http://www.boost.org/users/license.html
 
+** nifti : see file
+
+** Qt : http://doc.qt.io/qt-5/licensing.html
+
