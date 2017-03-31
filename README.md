@@ -86,3 +86,7 @@ Data
 
 ** plot.hpp (opencv contrib) see file
 
+** GPC see file
+
+** boost : http://www.boost.org/users/license.html
+
